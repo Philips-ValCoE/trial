@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Cloud</title>
+</head>
+<body>
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            {%csrf_token%}
+            <input type="text" name="x">
+            <input type="text" name="y">
+            <a href="/result"><input type="submit" class="btn btn-info" value="submit" name="submit"></a>
+    </form>
+    </div>
+</body>
+</html>
