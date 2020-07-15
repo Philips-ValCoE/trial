@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import sklearn
 
-model = pickle.load(open('C:/Users/320090147/PycharmProjects/demo/demo/rg.pkl', 'rb'))
+model = pickle.load(open('demo/rg.pkl', 'rb'))
 
 def base(request):
     context = {}
